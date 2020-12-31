@@ -8,12 +8,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         </style>
-        
+   
+    <link rel="stylesheet" href="./css/all.min.css"> 
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+      
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <div class="header">
+    <!-- <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
@@ -44,9 +47,348 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="catagories">
+
+       <!-- Header section -->
+    <!-- Header top -->
+    <header class="header" id="header">
+        
+        <!-- Header top end -->
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            
+            <ul class="navbar-nav mr-auto">
+              <select name="countries">
+                <option active value="NL">Language</option>
+                <option value="NL">🇳🇱 Netherlands</option>
+                <option value="DE">🇩🇪 Germany</option>
+                <option value="FR">🇫🇷 France</option>
+                <option value="ES">🇪🇸 Spain</option>
+              </select>
+              <select name="currency">
+              <option active value="USD">$ USD 💵</option>
+              <option value="EUR">€ EU 💶</option>
+              <option value="GBP">£ GBP 💷</option>
+              <option value="YEN">¥ YEN 💴</option>
+            </select>
+            <li class="nav-item phonecall">
+              <a class="nav-link " href="#"><i class="fas fa-phone-square-alt"></i> 018-188-999</a>
+            </li>
+            </ul>
+          
+              <ul class="navbar-nav top-nav-right">
+                <li class="nav-item">
+                  <a class="nav-link " href="#">My Account</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Wishlist</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Checkout</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Checkout</a>
+                </li>
+              </ul>
+            
+          </div>
+        </nav>
+        <!-- top end -->
+        <!-- center start -->
+          <div class="center-area">
+            <div class="center-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3 shoping-logo">
+                    <div class="logo">
+                      <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                    <div class="logo-details">
+                      <a href=""><span>daily</span>Shop</a>
+                      <p>your shoping partner</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 search">
+                    <div class="form-btn">
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-danger" type="submit"><i class="fas fa-search-minus"></i></button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-3 cart-area">
+                    <div class="">
+                      <a href="" class="cart-link">
+                        <span class="cart-icon"><i class="fas fa-shopping-basket"></i></span>
+                        <h4 class="cart-title">shoping cart</h4>
+                        <p class="cart-notify">2</p>
+    
+                      </a>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    
+         <!-- bottom start  -->
+    
+         <div class="bottom-area">
+          <div class="container">
+            <div class="header-main">
+               
+               <div class="open-nav-menu">
+                  <span></span>
+               </div>
+               <div class="menu-overlay">
+               </div>
+               <!-- navigation menu start -->
+               <nav class="nav-menu">
+                 <div class="close-nav-menu">
+                   <a href=""><i class="far fa-window-close"></i></a>
+                 </div>
+                 <ul class="menu">
+                  <li class="menu-item">
+                    <a href="#">Home</a>
+                  </li>
+                    <li class="menu-item menu-item-has-children">
+                       <a href="#" data-toggle="sub-menu">Man <i class="plus"></i></a>
+                       <ul class="sub-menu">
+                           <li class="menu-item"><a href="#">Casual</a></li>
+                           <li class="menu-item"><a href="#">Sports</a></li>
+                           <li class="menu-item"><a href="#">Formal</a></li>
+                           <li class="menu-item"><a href="#">Standard</a></li>
+                           <li class="menu-item"><a href="#">T-Shirts</a></li>
+                           <li class="menu-item"><a href="#">Shirts</a></li>
+                           <li class="menu-item"><a href="#">Jeans</a></li>
+                           <li class="menu-item"><a href="#">Trousers</a></li>
+                           
+                       </ul>
+                    </li>
+    
+                    <li class="menu-item menu-item-has-children">
+                      <a href="#" data-toggle="sub-menu">Women <i class="plus"></i></a>
+                      <ul class="sub-menu">
+                          <li class="menu-item"><a href="#">Kurta & Kurti</a></li>
+                          <li class="menu-item"><a href="#">Trousers</a></li>
+                          <li class="menu-item"><a href="#">Casual</a></li>
+                          <li class="menu-item"><a href="#">Sports</a></li>
+                          <li class="menu-item"><a href="#">Formal</a></li>
+                          <li class="menu-item"><a href="#">Sarees</a></li>
+                          <li class="menu-item"><a href="#">Shoes</a></li>
+                          
+                          
+                      </ul>
+                   </li>
+                   <li class="menu-item menu-item-has-children">
+                    <a href="#" data-toggle="sub-menu">Kids <i class="plus"></i></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">Casual</a></li>
+                        <li class="menu-item"><a href="#">Sports</a></li>
+                        <li class="menu-item"><a href="#">Formal</a></li>
+                        <li class="menu-item"><a href="#">Standard</a></li>
+                        <li class="menu-item"><a href="#">T-Shirts</a></li>
+                        <li class="menu-item"><a href="#">Shirts</a></li>
+                        <li class="menu-item"><a href="#">Jeans</a></li>
+                        <li class="menu-item"><a href="#">Trousers</a></li>  
+                    </ul>
+                 </li>
+    
+                    <li class="menu-item">
+                       <a href="#">Sports</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children">
+                      <a href="#" data-toggle="sub-menu">Digital <i class="plus"></i></a>
+                      <ul class="sub-menu">
+                          <li class="menu-item"><a href="#">Camera</a></li>
+                          <li class="menu-item"><a href="#">Mobile</a></li>
+                          <li class="menu-item"><a href="#">Tablet</a></li>
+                          <li class="menu-item"><a href="#">Laptop</a></li>
+                          <li class="menu-item"><a href="#">Accesories</a></li>
+                           
+                      </ul>
+                   </li>
+                    <li class="menu-item">
+                       <a href="#">Furniture</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children">
+                      <a href="#" data-toggle="sub-menu">Blog <i class="plus"></i></a>
+                      <ul class="sub-menu">
+                          <li class="menu-item"><a href="#">Blog Style 1</a></li>
+                          <li class="menu-item"><a href="#">Blog Style 2</a></li>
+                          <li class="menu-item"><a href="#">Blog Single</a></li>  
+                      </ul>
+                   </li>
+                   <li class="menu-item">
+                    <a href="#">Contact</a>
+                 </li>
+                    <li class="menu-item menu-item-has-children">
+                       <a href="#" data-toggle="sub-menu">Pages <i class="plus"></i></a>
+                       <ul class="sub-menu">
+                           <li class="menu-item"><a href="#">Shop Page</a></li>
+                           <li class="menu-item"><a href="#">Shop Single</a></li>
+                           <li class="menu-item"><a href="#">404 Page</a></li>
+                           
+                       </ul>
+                    </li>
+                    
+                 </ul>
+               </nav>
+               <!-- navigation menu end -->
+            </div>
+         </div>
+    
+    
+        </div>
+    
+    
+          
+          <!-- bottom start end -->
+    
+          
+        </header>
+
+
+        <!-- Slider area -->
+        <div class="slider-area">
+            <div class="container">
+               <div class="row">
+                <div class="col-md-12">
+                    <div class="slider">
+                        <div class="slider-item">
+                            <img src="./images/slider1.jpg" alt="">
+                            <div class="slider-delails">
+                                <h4>save up to 5%</h4>
+                                <h1>Our best qualoty food</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dolor!</p>
+                                <a href="#"><button class="btn">Shop now</button></a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./images/Fashion5.jpg" alt="">
+                            <div class="slider-delails">
+                                <h4>save up to 75%</h4>
+                                <h1>Our best qualoty fashaion</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dolor!</p>
+                                <a href="#"><button class="btn">Shop now</button></a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./images/Shoes2.jpg" alt="">
+                            <div class="slider-delails">
+                                <h4>save up to 15%</h4>
+                                <h1>Our best qualoty shoes</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dolor!</p>
+                                <a href="#"><button class="btn">Shop now</button></a>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img src="./images/clock6.jpg" alt="">
+                            <div class="slider-delails">
+                                <h4>save up to 2%</h4>
+                                <h1>Our best qualoty clock</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dolor!</p>
+                                <a href="#"><button class="btn">Shop now</button></a>
+                            </div>
+                        </div>
+                        <div class="slider-left"><i class="fas fa-angle-double-left"></i></div>
+                        <div class="slider-right"><i class="fas fa-angle-double-right"></i></div>
+                    </div>
+                    
+                </div>
+               </div>
+            </div>
+        </div>
+
+        <!-- Slider area end -->
+
+        <!-- promot section -->
+        <section class="promot-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="promot-area">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="promot-left">
+                                        <div class="single-promot-left">
+                                            <img src="images/clock6.jpg" alt="">
+                                            <div class="single-promot-details-lf">
+                                                <span>5% OFF</span>
+                                                <h1><a href="">FOR WOMEN/MAN</a></h1>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="promot-right">
+                                        <div class="single-promot-right">
+                                            <img src="images/Fashion5.jpg" alt="">
+                                            <div class="single-promot-details-ri">
+                                                <span>50% OFF</span>
+                                                <h1><a href="">FOR WOMEN</a></h1>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="single-promot-right">
+                                            <img src="images/product-5.jpg" alt="">
+                                            <div class="single-promot-details-ri">
+                                                <span>10% OFF</span>
+                                                <h1><a href="">FOR WOMEN/MAN</a></h1>
+                                             
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="single-promot-right">
+                                            <img src="images/exclusive.png" alt="">
+                                            <div class="single-promot-details-ri">
+                                                <span>5% OFF</span>
+                                                <h1><a href="">FOR MAN</a></h1>
+                                               
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="single-promot-right">
+                                            <img src="images/product-12.jpg" alt="">
+                                            <div class="single-promot-details-ri">
+                                                <span>75% OFF</span>
+                                                <h1><a href="">FOR MAN</a></h1>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- promot section end -->
+
+       
+
+    
+    
+          
+
+        <div class="catagories">
         <div class="small-container">
             <div class="row">
                 <div class="col-3">
@@ -354,7 +696,7 @@
     </div>
         
    
-    <script>
+    <!-- <script>
     var menuItems=document.getElementById('menuItems')
     menuItems.style.maxHeight='0px'
 
@@ -367,9 +709,20 @@
 
 }
 
+    </script> -->
+ 
+    <script>
+
+
     </script>
 
-    <script src="main.js"></script>
+   
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+   
+
 
 
 </body>

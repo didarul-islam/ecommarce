@@ -1,4 +1,4 @@
-@media only screen and (max-width:800px){
+/* @media only screen and (max-width:800px){
     nav ul{
         position: absolute;
         top: 90px;
@@ -26,7 +26,7 @@
        
     }
     
-}
+} */
 
 @media only screen and (max-width:600px){
     .row{
@@ -48,4 +48,7 @@
     .cart-info p{
         display: none;
     }
+    .brands .col-5{
+       flex:unset;
+     }
 }
